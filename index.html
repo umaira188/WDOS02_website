@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styling/styling.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <title>home</title>
+    
+</head>
+<body id="body">
+    <!-- Navigation section -->
+    <div id="nav" class="nav" style="background-image: url(images/main.jpg)">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="srilankanwildlife.html" id="wildlife">Sri Lankan Wildlife</a></li>
+                <li><a href="departmentofwildlife.html" id="department">Department of wildlife</a></li>
+                <li><a href="leopard.html" id="leopard" class="activeNav">sri lankan leopard</a></li>
+                <li><a href="animals.html" id="animals">animals in sri lanka</a>
+                    <a id="log"></a>
+                    <a id="edit-panel" style= cursor:pointer></a>       
+                    <ul class="dropdown">
+                        <li><a href="yala.html">Yala National Park</a></li>
+                        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Main content section with title, description, and about us button -->
+    <div id="indexContentOne" class="indexContentOne">
+        <h1 id="biodiversityTitle"></h1>
+        <p id="biodiversityDescription">       
+        </p>
+        <div id="aboutUsButton" style="text-align: center; margin: 25px">
+            <a href="#" id="aboutLink">About Us</a>
+        </div>
+    </div>
+    <!-- Section showcasing Sri Lanka's biodiversity with images and descriptions -->
+    <div id="indexOne" class="indexOne">
+        <div>
+            <h1 id="bioDiversitySectionTitle"></h1>
+            <ul id="bioDiversityList">
+                <h2 id="richFaunaTitle"></h2>
+                <li id="richFaunaDescription"></li>
+                <h2 id="uniqueFloraTitle"></h2>
+                <li id="uniqueFloraDescription">
+                   
+                </li>
+                <h2 id="conservationEffortTitle"></h2>
+                <li id="conservationEffortDescription">
+                  
+                </li>
+            </ul>
+        </div>
+        <img src="images/bio.jpeg" alt="alt" id="bioImage">
+    </div>
+    <br><br>
+    <!-- Section for new updates -->
+    <div id="indexUpdate" class="indexUpdate">
+        <h1 id="updateTitle"></h1>
+        <p id="updateDescription">
+        </p>
+    </div>
+    <br>
+    <!-- Another section showcasing flora with images and descriptions -->
+    <div id="indexTwo" class="indexOne">
+        <div>
+            <h1 id="floraTitle"></h1>
+            <p id="floraDescription">
+            </p>
+        </div>
+        <img src="images/img2.jpg" alt="alt" id="floraImage">
+    </div>
+    <br><br>
+    <!-- Section showcasing fauna with images and descriptions -->
+    <div id="indexThree" class="indexOne">
+        <div>
+            <h1 id="faunaTitle"></h1>
+            <p id="faunaDescription">               
+            </p>
+        </div>
+        <img src="images/img.jpg" alt="alt" id="faunaImage">
+    </div>
+    <br><br>
+    <!-- Section about conservation efforts with images and descriptions -->
+    <div id="indexFour" class="indexOne">
+        <div>
+            
+            <h1 id="conservationTitle"></h1>
+            <p id="conservationDescription">              
+            </p>
+        </div>
+        <img src="images/img3.jpg" alt="alt" id="conservationImage">
+    </div>
+    <br><br>
+    
+     <!-- Footer section -->
+     <footer id="footer">
+      <div class="footer">
+          <!-- About Us section -->
+          <div class="footerAbout" id="aboutUsSection">
+              <h1 id="aboutUsTitle">About Us</h1>
+              <a href="#" id="blogLink">Blog</a>
+              <a href="#" id="demoLink">Demo</a>
+              <a href="#" id="customersLink">Customers</a>
+              <a href="#" id="investorsLink">Investors</a>
+              <a href="#" id="termsLink">Terms of Services</a>
+          </div>
+          <!-- Contact section -->
+          <div class="footerContact" id="contactSection">
+              <h1 id="contactUsTitle">Contact Us</h1>
+              <a href="#" id="supportLink">Support</a>
+              <a href="#" id="contactLink">Contact</a>
+              <a href="#" id="sponsorshipLink">Sponsorship</a>
+          </div>
+          <!-- Social Media section -->
+          <div class="footerSocial" id="socialMediaSection">
+              <h1 id="socialMediaTitle">Social Media</h1>
+              <a href="#" id="instagramLink">Instagram</a>
+              <a href="#" id="facebookLink">Facebook</a>
+              <a href="#" id="youtubeLink">YouTube</a>
+              <a href="#" id="twitterLink">Twitter</a>
+          </div>
+          <!-- Join Us section -->
+          <div class="footerJoin" id="joinUsSection">
+              <h1 id="joinUsTitle">Newsletter Subscriptions</h1>
+              <form id="subscriptionForm">
+                  <div class="form-box">
+                      <input type="email" id="emailInput" placeholder="Enter your Email" required>
+                      <button type="submit">Subscribe</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </footer>
+ <script src="newsletter.js"></script>
+</body>
+</html>

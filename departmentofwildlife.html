@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styling/styling.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Department of Wildlife</title>
+    <script src="departmentofwildlife.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <div id="nav" class="nav" style="background-image: url(images/deprtment.jpg)">
+      <nav>
+        <ul>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="srilankanwildlife.html" id="wildlife">Sri Lankan Wildlife</a></li>
+            <li><a href="departmentofwildlife.html"class="active">Department of wildlife</a></li>
+            <li><a href="leopard.html" id="leopard" class="activeNav">sri lankan leopard</a></li>
+            <li><a href="animals.html" id="animals">animals in sri lanka</a>
+                <a id="log"></a>
+                <a id="edit-panel" style= cursor:pointer></a>       
+                <ul class="dropdown">
+                    <li><a href="yala.html">Yala National Park</a></li>
+                    <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+    <div id="departmentIntro" class="departmentIntro">
+      <h1 id="introHeading"></h1>
+     </div>
+     
+     <!-- Department Content Section -->
+     <div id="departmentContent" class="departmentContent">
+      <h1 id="briefIntroductionHeading"></h1>
+      <p id="briefIntroductionText"></p>
+      <h1 id="ourTeamHeading"></h1>
+      <p id="ourTeamText"></p>
+      <h1 id="ongoingProjectHeading"></h1>
+      <p id="ongoingProjectText"></p>
+      <h4 id="protectedAreasSubheading"></h4>
+      <p id="protectedAreasText"></p>
+     </div>
+
+    <!-- Department Images Section -->
+    <div id="departmentImages" class="departmentImages">
+      <div class="departmentOne">
+        <img src="images/HortonPlainsNationalPark.jpg" alt="Horton Plains National Park">
+        <img src="images/UdawalawePark.jpg" alt="Udawalawe Park">
+        <img src="images/GalOyaPark.jpeg" alt="Gal Oya Park">
+      </div>
+      <div class="departmentTwo">
+        <img src="images/Wasgamuwapark.jpg" alt="Wasgamuwa Park">
+        <img src="images/KumanaPark.jpg" alt="Kumana Park">
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <footer id="footer">
+      <div class="footer">
+          <!-- About Us section -->
+          <div class="footerAbout" id="aboutUsSection">
+              <h1 id="aboutUsTitle">About Us</h1>
+              <a href="#" id="blogLink">Blog</a>
+              <a href="#" id="demoLink">Demo</a>
+              <a href="#" id="customersLink">Customers</a>
+              <a href="#" id="investorsLink">Investors</a>
+              <a href="#" id="termsLink">Terms of Services</a>
+          </div>
+          <!-- Contact section -->
+          <div class="footerContact" id="contactSection">
+              <h1 id="contactUsTitle">Contact Us</h1>
+              <a href="#" id="supportLink">Support</a>
+              <a href="#" id="contactLink">Contact</a>
+              <a href="#" id="sponsorshipLink">Sponsorship</a>
+          </div>
+          <!-- Social Media section -->
+          <div class="footerSocial" id="socialMediaSection">
+              <h1 id="socialMediaTitle">Social Media</h1>
+              <a href="#" id="instagramLink">Instagram</a>
+              <a href="#" id="facebookLink">Facebook</a>
+              <a href="#" id="youtubeLink">YouTube</a>
+              <a href="#" id="twitterLink">Twitter</a>
+          </div>
+          <!-- Join Us section -->
+          <div class="footerJoin" id="joinUsSection">
+              <h1 id="joinUsTitle">Join us for more details</h1>
+              <form id="subscriptionForm">
+                <div class="form-box">
+                    <input type="email" id="emailInput" placeholder="Enter your Email" required>
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+          </div>
+      </div>
+  </footer>
+   <!-- Js file -->`
+   <script src="newsletter.js"></script>
+ 
+</body>
+</html>
+
+  </body>
+</html>

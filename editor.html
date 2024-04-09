@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editor</title>
+<link rel="stylesheet" href="editor.css">
+<script src="editor.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Page Editor</h1>
+</header>
+
+<main>
+    <section class="container">
+        <div class="controls">
+            <label for="dropdown">Select Page:</label>
+            <select id="dropdown" class="selection">
+                <option value="Home">Home</option>
+                <option value="intro">Introduction</option>
+                <option value="department">Department</option>
+                <option value="leopard">Leopard</option>
+                <option value="animal">Animal</option>
+                <option value="yala">Yala</option>
+                <option value="wilpattu">Wilapattu</option>
+            </select>
+            <button id="select">SELECT PAGE</button>
+            <button id="save">SAVE CHANGES</button>
+        </div>
+
+        <div class="editor">
+            <textarea id="editor-text" class="textarea" rows="10" placeholder="Enter text here..."></textarea>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Editor App</p>
+</footer>
+
+</body>
+</html>

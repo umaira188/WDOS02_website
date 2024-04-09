@@ -1,0 +1,495 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+
+/*styling for index.html*/
+.nav{
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.nav ul{
+  list-style-type: none;
+  margin:0;
+  margin-left:25px;
+  padding:30px;
+  overflow: hidden;
+  display: inline-block;
+}
+.nav ul li{
+  display: inline-block;
+}
+.nav ul li a{
+  list-style-type: none;
+  color: white;
+  text-align: center;
+  padding:15px;
+  font-weight:bolder;
+  transition: 0.5s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  
+}
+.nav ul li .dropdown{
+display:grid;
+position:absolute;
+margin-top:-15px;
+margin-left: -25px;
+}
+.nav ul li a:hover{
+  color: red;
+}
+.active{
+  background-color: red;
+}
+.nav ul li:hover .dropdown li{
+color: black;
+position: relative;
+display:flex;
+}
+.nav ul li .dropdown li{
+display:none;
+margin-top: -10px;
+margin-left:20px;
+font-size:smaller;
+
+}
+
+.indexContentOne h1 {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+}
+.indexContentOne p {
+  width: 95%;
+  margin: auto;
+  color: maroon;
+  font-size: 1.3em;
+  text-align: center;
+}
+.indexContentOne a {
+  margin: auto;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.indexOne {
+  display: flex;
+  border: 2px solid gray;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+}
+.indexOne img {
+  width: 500px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.indexUpdate h1 {
+  color: red;
+  size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.indexUpdate p {
+  color: maroon;
+  size: 1em;
+  text-align: center;
+}
+footer {
+  background-color: #212329;
+}
+.footer {
+  height: 300px;
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: center;
+}
+.footer h1 {
+  color: white;
+  font-size: 1em;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+.footerAbout,
+.footerContact,
+.footerSocial {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.footerAbout a,
+.footerContact a,
+.footerSocial a {
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: justify;
+}
+.footerJoin {
+  padding: 50px;
+}
+.footerJoin input {
+  border: 1px solid white;
+  padding: 10px;
+}
+.footerJoin button {
+  background-color: orangered;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    width: 330px;
+    max-width: 330px;
+  }
+  .indexOne {
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+  }
+  .indexOne img {
+    width: 290px;
+  }
+  .footer {
+    display: none;
+  }
+  .indexContentOne h1 {
+    letter-spacing: 10px;
+  }
+}
+
+/*styling for srilankanwildlife.html*/
+
+.wildlifeIntro h1{
+  text-align: center;
+  color: red;
+  font-size: 2.5em;
+}
+.wildlifeIntro p{
+  text-align: center;
+  font-size: 1.3em;
+}
+.wildlifeContent{
+  display: flex;
+  padding:10px;
+}
+.wildlifeMap{
+  width: 30%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+.wildlifeMap p{
+  width: 100%;
+}
+.wildlifeMap img{
+  width: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.wildlifeMap img:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+ 
+.wildlifeMap iframe{
+  width: 400px;
+  border-radius: 10px;
+}
+.wildlifeTable h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2em;
+}
+.wildlifeTable table,tr,td,th{
+  border: 1px solid black;
+}
+.wildlifeTable table{
+  margin: auto;
+  width: 90%;
+}
+.wildlifeTable table img{
+  width: 200px;
+  height: 200px;
+}
+.nav h1{
+  color: white;
+  margin-left: 30%;
+  margin-top: 20%;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .wildlifeContent{
+    display: block;
+    width: 1200px;
+  }
+  .wildlifeMap img{
+    width: 150px;
+  }
+  .wildlifeMap iframe{
+    width: 300px;
+  }
+  .wildlifeIntro h1{
+    font-size: 2em;
+    text-align: center;
+    width: 400px;
+  }
+  .wildlifeIntro p{
+    text-align: center;
+    font-size: 1em;
+    width: 400px;
+  }
+  .wildlifeTable table img{
+    width: 100px;
+  }
+  .nav h1{
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 30%;
+    width: 400px;
+  }
+}
+
+/*styling for departmentofwildlife.html*/
+
+.departmentIntro h1{
+  letter-spacing: 15px;
+  text-align: center;
+}
+.departmentContent{
+  width: 80%;
+  margin: auto;
+}
+.departmentContent h1{
+  text-align: center;
+}
+.departmentContent p{
+  background-color: #442b2b;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+.departmentContent h4{
+  color: #442b2b;
+  font-size: 2em;
+  text-align: center;
+}
+.departmentContent h2{
+  font-size: 1em;
+  text-align: center;
+}
+.departmentOne img,
+.departmentTwo img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.departmentOne,
+.departmentTwo{
+  display: flex;
+  justify-content: space-between;
+}
+.departmentTwo{
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .departmentIntro h1{
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 320px;
+  }
+  .departmentContent{
+    width: 320px;
+    margin: 0;
+  }
+  .departmentOne{
+    display: block;
+  }
+  .departmentTwo{
+    display: block;
+    width: 100%;
+  }
+  .departmentImages img{
+    width: 300px;
+  }
+}
+
+/*styling for leopard.html*/
+
+.leopardIntro h1{
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+}
+.leopardIntro h2{
+  text-align: center;
+  width: 90%;
+  color: maroon;
+  margin: auto;
+}
+.leopardIntro h3{
+  letter-spacing: 15px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.leopardThreatTitle{
+  color: red;
+  font-size: 2.5em;
+  text-align: center;
+}
+.leopardThreats{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.leopardThreats img{
+  margin-left: 20%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.leopardThreats h1{
+  text-align: center;
+  color: maroon;
+}
+.leopardThreats h2{
+  text-align: center;
+  width: 95%;  
+}
+.leopardThreats p{
+  background-color: #442b2b;
+  border: 1px solid black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.leopardThreats p a{
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .leopardIntro h1{
+    font-size: 20px;
+    width: 330px;
+  }
+  .leopardIntro h2{
+    font-size: 10px;
+    width: 330px;
+    margin: 0;
+    text-align: center;
+  }
+  .leopardIntro h3{
+    letter-spacing: 2px;
+    width: 330px;
+  }
+  .leopardThreatTitle{
+    font-size: 1em;
+    width: 330px;
+  }
+  .leopardThreats{
+    width: 300px;
+  }
+  .leopardThreats img{
+    width: 200px;
+  }
+  .leopardThreats h1{
+    font-size: 24px;
+  }
+}
+
+/*styles for animals*/
+
+.animalTitle h1{
+  text-align: center;
+  letter-spacing: 15px;
+}
+.animalTitle h2{
+  text-align: center;
+  color: maroon;
+  font-size: 2.5em;
+}
+.animalTitle p{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.animalList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-content{
+  border: 1px solid black;
+  width: 200px;
+  height: 400px;
+  margin: 15px;
+}
+.card-content img{
+  width: 200px;
+  height: 200px;
+}
+.animalVisit{
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+}
+.animalVisit h1{
+  text-align: center;
+  font-size: 1em;
+}
+.animalVisit a{
+  border: 1px solid black;
+  background-color: maroon;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .card-content{
+    width: 350px;
+  }
+  .card-content img{
+    width: 320px;
+    padding: 10px;
+  }
+  .animalTitle{
+    width: 350px;
+  }
+  .animalTitle h1{
+    letter-spacing: 5px;
+  }
+  .animalVisit{
+    display: block;
+    border: 1px solid transparent;
+    width: 350px;
+  }
+  .animalVisit h1{
+    font-size: 15px;
+  }
+}

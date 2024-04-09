@@ -1,0 +1,43 @@
+{
+    "title": "INDIGENOUS ANIMALS IN SRI LANKA",
+    "subtitle": "Indigenous Animals",
+    "introduction": "Sri Lanka, the pearl of the Indian Ocean, is a land teeming with unique and fascinating creatures. Its geographical isolation and diverse habitats have fostered an extraordinary level of endemism, meaning a staggering number of species found nowhere else on Earth. The unique ecosystems found in Sri Lanka, including rainforests, dry forests, coastal areas, and wetlands, contribute to the presence of a variety of wildlife species. Here's a brief introduction to some of the indigenous animals in Sri Lanka:",
+    "animals": [
+       {
+         "name": "Ceylon Birdwing (Troides darsius)",
+         "description": "Sri Lanka's largest species of butterflies. Found in tropical rainforests, this species is distinguished by its striking black and green wings."
+       },
+       {
+         "name": "Indian Pangolin (Manis crassicaudata)",
+         "description": "An unusual-looking species of scaly anteater. Mostly nocturnal, it uses its long, sticky tongue to eat termites and ants."
+       },
+       {
+         "name": "Purple-faced Langur (Semnopithecus vetulus)",
+         "description": "A species of endemic primate distinguished by its purple face. Lives in Sri Lanka's rainforests and is frequently observed in groups."
+       },
+       {
+         "name": "Sri Lanka Junglefowl (Gallus lafayettii)",
+         "description": "The Sri Lankan national bird. Famous for having feathers that are vivid and colorful, along with wattles and a unique comb."
+       },
+       {
+         "name": "Loris (Nycticebus spp.)",
+         "description": "Primate nocturnal species characterized by big eyes and slow, deliberate movements. Found in a variety of woodland environments and distinguished by their distinct way of moving."
+       },
+       {
+         "name": "Toque Macaque (Macaca sinica)",
+         "description": "A monkey of medium size with a distinctive hair \"toque\" on its head. Found in a range of environments, such as cities, woods, and cultural sites."
+       },
+       {
+         "name": "Sri Lanka Frogmouth (Batrachostomus moniliger)",
+         "description": "An interesting bird species native to Sri Lanka, known for its cryptic plumage and nocturnal habits."
+       },
+       {
+         "name": "Indian Star Tortoise (Geochelone elegans)",
+         "description": "Found in certain regions of Sri Lanka, the Indian star tortoise is known for its attractive shell pattern."
+       },
+       {
+         "name": "Kandyan Dwarf Toad (Adenomus kandianus)",
+         "description": "This toad is endemic to Sri Lanka and is primarily found in the central hills region."
+       }
+    ]
+   }

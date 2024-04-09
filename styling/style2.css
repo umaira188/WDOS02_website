@@ -1,0 +1,204 @@
+body{
+    background-color:white;
+}
+#g2{
+    background-image:url(images/WilpattuParkBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+.wilpattu-header-content{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: center;
+  }
+  .wilpattu-header-content h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+#logo {
+    float: left;
+    margin-left:-10px;
+    margin-top:-5px;
+}
+.menu ul{
+    list-style-type: none;
+    margin:0;
+    margin-left:-25px;
+    padding:30px;
+    overflow: hidden;
+    display: inline-block;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    padding:15px;
+    font-weight:bolder;
+    transition: 0.5s;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.menu ul li .dropdown{
+  display:grid;
+  position:absolute;
+  margin-top:-15px;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.active{
+    background-color: red;
+}
+.menu ul li:hover .dropdown li{
+  color: #000000;
+  position: relative;
+  display:flex;
+}
+.menu ul li .dropdown li{
+  display:none;
+  margin-top: -10px;
+  margin-left:20px;
+  font-size:smaller;
+
+}
+
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #f9423d;
+    text-align: center;
+  }
+
+  .wilpattu h2{
+    color: darkolivegreen;
+    text-align: center;
+   }
+  
+  .intro-page p{
+    font-size: larger;
+    text-align: center;
+    color: black;
+   }
+
+   /* Slider */
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    animation: slideAnimation 15s infinite; /* Adjust the duration as needed */
+}
+
+.slide {
+    min-width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#slide1 {
+    background-image: url(images/safariwilpattu.webp);
+}
+
+#slide2 {
+    background-image: url(images/waterbuffaloeswilpattu.jpg);
+}
+
+#slide3 {
+    background-image: url(images/slothbearwilpattu.jpg);
+}
+
+#slide4 {
+    background-image: url(images/chest-nutbeaeaterwilpattu.jpg);
+}
+
+#slide5 {
+    background-image: url(images/elephantwilpattu.jpg);
+}
+
+@keyframes slideAnimation {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+footer {
+    background-color: #212329;
+  }
+  .footer {
+    height: 300px;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+  }
+  .footer h1 {
+    color: white;
+    font-size: 1em;
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+  .footerAbout,
+  .footerContact,
+  .footerSocial {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footerAbout a,
+  .footerContact a,
+  .footerSocial a {
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    text-align: justify;
+  }
+  .footerJoin {
+    padding: 50px;
+  }
+  .footerJoin input {
+    border: 1px solid white;
+    padding: 10px;
+  }
+  .footerJoin button {
+    background-color: orangered;
+    padding: 10px;
+    border: 1px solid black;
+  }

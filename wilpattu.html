@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lankan Wildlife</title>
+    <link rel="stylesheet" href="styling/style2.css">
+    <script src="wilpattu.js"  defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Wilpattu Header Section -->
+        <section class="wilpattu_header" style="background-image: url(images/WilpattuParkBackground.jpg);">
+          <div id="g2">
+            <div class="menu">
+                <!-- Logo -->
+                <figure id="logo">
+                    <img src="images/logo.png" width="150px" height="80px" id="logo-img">
+                </figure>
+                <!-- Navigation Menu -->
+                <nav id="main-nav"> 
+                    
+                        <ul>
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="srilankanwildlife.html" id="wildlife">Sri Lankan Wildlife</a></li>
+                            <li><a href="departmentofwildlife.html" id="department">Department of wildlife</a></li>
+                            <li><a href="leopard.html" id="leopard" class="activeNav">sri lankan leopard</a></li>
+                            <li><a href="animals.html" id="animals">animals in sri lanka</a>
+                                <a id="log"></a>
+                                <a id="edit-panel" style= cursor:pointer></a>       
+                                <ul class="dropdown">
+                                    <li><a href="yala.html">Yala National Park</a></li>
+                                    <li><a href="wilpattu.html"  class="active">Wilpattu National Park</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>                      
+            </div>
+        </div>
+        <!-- Wilpattu Header Content -->
+        <div class="wilpattu-header-content" id="wilpattu-header-content">
+            <h1 id="header-text"></h1>
+        </div>
+    </section>
+    </header>     
+
+    <!-- Explore Section -->
+    <section class="wilpattu" id="explore-section">
+        <h2 id="explore-heading"></h2>
+        <div class="intro-page">
+            <!-- Explore Content -->
+            <p id="para1">
+            </p>
+        </div>
+    </section>
+
+    <!-- Encounter Section -->
+    <section class="wilpattu" id="encounter-section">
+        <h2 id="encounter-heading"></h2>
+        <div class="intro-page">
+            <!-- Encounter Content -->
+            <p id="para2">
+            </p>
+        </div>
+    </section>
+
+    <!-- Slider Section -->
+    <div class="slider-container" id="slider-container">
+        <div class="slides">
+            <!-- Slide Content -->
+            <div class="slide" id="slide1"><img src="images/safariwilpattu.webp"></div>
+            <div class="slide" id="slide2"><img src="images/waterbuffaloeswilpattu.jpg"></div>
+            <div class="slide" id="slide3"><img src="images/slothbearwilpattu.jpg"></div>
+            <div class="slide" id="slide4"><img src="images/chest-nutbeaeaterwilpattu.jpg"></div>
+            <div class="slide" id="slide5"><img src="images/elephantwilpattu.jpg"></div>
+        </div>
+    </div>
+
+    <!-- Conservation Section -->
+    <section class="wilpattu" id="conservation-section">
+        <h2 id="conservation-heading"></h2>
+        <div class="intro-page">
+            <!-- Conservation Content -->
+            <p id="para3">
+            </p>
+        </div>
+    </section>
+
+   <!-- Footer section -->
+     <footer id="footer">
+        <div class="footer">
+            <!-- About Us section -->
+            <div class="footerAbout" id="aboutUsSection">
+                <h1 id="aboutUsTitle">About Us</h1>
+                <a href="#" id="blogLink">Blog</a>
+                <a href="#" id="demoLink">Demo</a>
+                <a href="#" id="customersLink">Customers</a>
+                <a href="#" id="investorsLink">Investors</a>
+                <a href="#" id="termsLink">Terms of Services</a>
+            </div>
+            <!-- Contact section -->
+            <div class="footerContact" id="contactSection">
+                <h1 id="contactUsTitle">Contact Us</h1>
+                <a href="#" id="supportLink">Support</a>
+                <a href="#" id="contactLink">Contact</a>
+                <a href="#" id="sponsorshipLink">Sponsorship</a>
+            </div>
+            <!-- Social Media section -->
+            <div class="footerSocial" id="socialMediaSection">
+                <h1 id="socialMediaTitle">Social Media</h1>
+                <a href="#" id="instagramLink">Instagram</a>
+                <a href="#" id="facebookLink">Facebook</a>
+                <a href="#" id="youtubeLink">YouTube</a>
+                <a href="#" id="twitterLink">Twitter</a>
+            </div>
+            <!-- Join Us section -->
+            <div class="footerJoin" id="joinUsSection">
+                <h1 id="joinUsTitle">Join us for more details</h1>
+                <form id="subscriptionForm">
+                    <div class="form-box">
+                        <input type="email" id="emailInput" placeholder="Enter your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+                    </form>
+            </div>
+        </div>
+    </footer>
+     <!-- Js file -->
+   <script src="newsletter.js"></script>
+  </body>
+  </html>

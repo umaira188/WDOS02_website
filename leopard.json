@@ -1,0 +1,32 @@
+{
+    "title": "The srilankan leopard: graceful apex predator",
+    "subtitle": "Although it is the lion that adorns the SriLankan flag and many of its ancient temples, Leopards are the island's Crowning Cat. Sitting at the top of the food chain, there are almost 800 leopards in SriLanka.",
+    "sightings": [
+       {
+         "title": "Yala National Park",
+         "description": "The first stop would be Yala, the most famous national park in Sri Lanka. Its fame is largely thanks to the fact that Yala has the most densely populated leopard presence on earth. Yala's rugged terrain, from scrublands to rocky outcrops, shelters a thriving leopard population. Jeep safaris offer glimpses of these spotted hunters, while guided walks reveal the park's rich biodiversity. Witnessing leopards stalk prey or relax by watering holes is an unforgettable experience"
+       },
+       {
+         "title": "Wilpattu National Park",
+         "description": "Wilpattu's vast, pristine dry season tanks and dense wet evergreen forests provide diverse habitats for leopards. Wildlife enthusiasts can track pugmarks or listen for leopard calls during safaris. Wilpattu's leopard density is among the highest in the world, making it a prime spot for responsible leopard sightings. The open sand brimmed lakes are some of the most beautiful settings to view these magnificient predators."
+       },
+       {
+         "title": "Horton Plains National Park",
+         "description": "Horton Plains National Park, located in the central highlands of Sri Lanka has a variety of wildlife including the elusive leopard Panthera Pardus Kotiya. Leopards of the Horton Plain are known for their secret and adaptability to the park's diverse ecosystems, from prairies to mountain forests. Although the view is difficult to see due to dense vegetation, lucky visitors can see these beautiful cats roaming the plains or lying in the shadows. These leopard populations provide a unique and exciting experience for wildlife enthusiasts to explore the stunning landscapes of the Horton Plains"
+       }
+    ],
+    "threats": [
+       {
+         "title": "Threat 01: Habitat Loss",
+         "description": "Habitat loss is a serious threat to leopards in Sri Lanka. The rapid expansion of human settlements, agriculture and infrastructure development has led to the destruction and fragmentation of the leopard's habitat. This in turn destroys their natural behaviour and reduces the availability of prey.",
+         "description_2":"Consequences: The impact of habitat loss includes increased conflicts between humans and leopards, reduced prey bases, and limited space for leopards to roam freely.This situation may result in a decline in leopard populations and genetic diversity.  Mitigation efforts: Sri Lankan conservation organizations, such as The Wildlife Conservation Society(WCS) in SriLanka actively works to address the issue of habitat loss for leopards. Recognizing the critical role that suitable habitats play in the survival of leopard populations, WCS implements conservation programs aimed at preserving and restoring their natural environments.Through research, habitat monitoring, and community engagement, WCS endeavors to mitigate the impact of human activities such as deforestation, urbanization, and agricultural expansion on leopard habitats. By promoting sustainable land-use practices, advocating for protected areas, and collaborating with local communities, WCS contributes to the conservation of leopard habitats, ensuring these elusive big cats have the necessary space and resources for their survival"
+     
+        
+        },
+       {
+         "title": "Threat 02: Illegal Wildlife Trade",
+         "description":"Habitat loss is a serious threat to leopards in Sri Lanka. The rapid expansion of human settlements, agriculture and infrastructure development has led to the destruction and fragmentation of the leopard's habitat. This in turn destroys their natural behaviour and reduces the availability of prey.",
+         "description_2":"Consequences: The effects of illegal wildlife trade include decline in leopards, loss of biodiversity, and disruption of ecosystems. In addition, this perpetuates an insupportable cycle that threatens the long-term survival of Sri Lankan leopards. Mitigation Efforts: Organisations such as The Wilderness & Wildlife Conservation Trust(WWCT) in SriLanka plays a crucial role in safeguarding leopards from the threats posed by illegal wildlife trade. Through its dedicated efforts, WWCT engages in rigorous research, monitoring, and conservation initiatives aimed at protecting leopard populations and their habitats.  The organization collaborates with local communities, government agencies, and international partners to raise awareness about the detrimental impacts of the illegal wildlife trade on leopards, By conducting educational programs, implementing anti-poaching measures, and advocating for stronger wildlife protection policies, WWCT actively contributes to the fight against the illicit trafficking of leopards and their bodyparts."
+       }
+        ]
+   }
